@@ -3,7 +3,7 @@ I've encountered lots of cowrie honeypot in the wild
 Having setup a cowrie myself, I'm able to identify them quickly.
 
 Below are some of the very obvious signs you are hitting cowrie honeypot
-1. try same user with different password. If the system allows login with different password, you can bet it's a honeypot 
+1. login same username with different password. If the system allows login with different password, you can bet it's a honeypot 
 2. write to a file, logout, login and find the file dissappeared
 3. check lastb, /var/log/auth.log or any other authentication log files or functions
 4. you will be automatically disconnected after an interval (there's a interactive timeout that log out a user after certain time of inactivity)
