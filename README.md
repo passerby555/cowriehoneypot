@@ -21,9 +21,10 @@ remember to add some random text so that the system will recognize it as a diffe
 (cowrie only downloads the same link once)
 
 here are some links for some better zip bombs
- https://www.bamsoftware.com/hacks/zipbomb/zbsm.zip
- https://www.bamsoftware.com/hacks/zipbomb/zblg.zip
- https://www.bamsoftware.com/hacks/zipbomb/zbxl.zip
+1. https://www.bamsoftware.com/hacks/zipbomb/zbsm.zip
+2. https://www.bamsoftware.com/hacks/zipbomb/zblg.zip
+3. https://www.bamsoftware.com/hacks/zipbomb/zbxl.zip
+4. https://github.com/iamtraction/ZOD/raw/master/42.zip
 
 you can do something like
 wget https://www.bamsoftware.com/hacks/zipbomb/zbsm.zip?randomstring
@@ -33,10 +34,9 @@ at the moment, no one report what will happens if a honeypot runs out of space o
 (modern unzip tools will refuse to unzip potential zip bomb)
 
 you can also try download lots of big files
- https://github.com/iamtraction/ZOD/raw/master/42.zip
- https://speed.hetzner.de/10GB.bin
- http://speedtest-sgp1.digitalocean.com/5gb.test
- https://speed.hetzner.de/1GB.bin
+1. https://speed.hetzner.de/10GB.bin
+2. http://speedtest-sgp1.digitalocean.com/5gb.test
+3. https://speed.hetzner.de/1GB.bin
 
 however these might not be able to complete before cowrie disconnects the client
 remember to keep pressing something to keep the interactivity during the download
