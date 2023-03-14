@@ -15,8 +15,8 @@ all the commands you typed are logged.
 you should log off asap.
 researchers usually look for tty sessions that is a larger file size to replay.
 
-Or, not recommended actions : you can use some random text generator to spam the logged session,
-or download/upload some zip bombs as souvenirs for whoever that setup the honeypot.
+Or, not recommended actions : you can use some random text generator to spam the logged session, (take note that a large session will attracts more attention)
+or download/upload some zip bombs as souvenirs for whoever that setup the honeypot. (honeypotter be warned, don't unzip every thing you find)
 remember to add some random text so that the system will recognize it as a different file 
 (cowrie only downloads the same link once)
 
@@ -30,7 +30,7 @@ you can do something like
 wget https://www.bamsoftware.com/hacks/zipbomb/zbsm.zip?randomstring
 append a ? and random string to make cowrie thinks that its a different file 
 
-at the moment, no one report what will happens if a honeypot runs out of space or if someone unzip some zipbomb
+at the moment, no one report what will happens if a system with cowrie honeypot runs out of space or if someone unzip some zipbomb
 (modern unzip tools will refuse to unzip potential zip bomb)
 
 you can also try download lots of big files
