@@ -1,5 +1,5 @@
 # identifying cowrie honeypot
-I've encountered lots of cowrie honeypot in the wild
+I've encountered lots of cowrie honeypot in the wild.
 Having setup a cowrie myself, I'm able to identify them quickly.
 
 Below are some of the very obvious signs you are hitting cowrie honeypot
@@ -88,3 +88,12 @@ last but not least, below is a list of known honeypot ip
 202.51.233.103,
 206.189.133.223,
 206.189.142.137
+
+notes to those that setup cowrie:
+1. don't be lazy, customize the userdb, proc/cpuinfo, proc/meminfo, df result, uname, etc. just copy and paste from an actual running system.
+2. try not to accept too many password, as this is a huge give away.
+3. do not unzip everything u see.
+4. if you are aiming for the big fish, just remove Richard entirely
+
+notes to those that writes certain type of programs:
+1. don't stop testing after getting a successful authentication, a second authentication can confirm that it is most likely a honeypot. This way you can limit exposing any of your code.
