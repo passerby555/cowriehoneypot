@@ -1,4 +1,4 @@
-# cowriehoneypot
+# identifying cowrie honeypot
 I've encountered lots of cowrie honeypot in the wild
 Having setup a cowrie myself, I'm able to identify them quickly.
 
